@@ -45,7 +45,7 @@ def near_support(price):
 # EXCHANGE
 # ==========================
 
-exchange = ccxt.binance()
+exchange = ccxt.bybit()
 
 print("🚀 Live Strategy Started...")
 
@@ -147,3 +147,4 @@ while True:
         print("Error:", e)
 
     time.sleep(60)   # check every minute
+
